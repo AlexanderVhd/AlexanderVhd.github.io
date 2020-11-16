@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alex Vahid: Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap 4 Plugins -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!--AOS Plugin-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+    <!--Home Section-->
+    <div id="home">
+        <!--Navigation-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-custom fixed-top">
+            <a class="navbar-brand nav-brand-custom" href="#home"><img src="/images/portfolio_logo.png"></a>
+            <div class="ml-auto">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item nav-item-border">
+                        <a class="nav-link" href="Resume.pdf">Resume</a>
+                    </li>
+                </ul>   
+            </div>
+        </nav>   
+        
+        <!--Landing Page-->
+        <div id="intro">
+            <div class="caption text-center">
+                <p>Hi, my name is</p>
+                <h1>Alexander Vahid.</h1>
+                <p>Student</p>
+                <p>Software Developer</p>
+                <p>Web Developer</p>
+                <a class="btn btn-outline-light btn-lg" href="#portfolio">View My Work</a>
+            </div>  
+        </div>
+    </div>
+    
+    <!--About Section-->
+    <div id="about" class="offset">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <div class="section__title" data-aos="fade-down" data-aos-delay="100">
+            <h2>About Me</h2>
+            <div class="title__line"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 text-center" data-aos="fade-right" data-aos-delay="200">
+            <img class="profile_img" src="/images/portfolio_pic.jpg" class="port__img" alt="Portfolio Pic">
+          </div>
+          <div id="about__content" class="col-md-6 col-sm-12" data-aos="fade-left" data-aos-delay="400">
+            <p> I am a software developer with a passion for full-stack development
+                and creating awesome looking web applications. I am a problem solver
+                at heart and am always exited to work on the next project.
+            </p>
+            <p>
+              Here are some of the technologies and techniques I have been working with:
+            </p>
+            <div class="list__container">
+              <ul>
+                <li>Android Studio</li>
+                <li>Web Development</li>
+              </ul>
+              <ul>
+                <li>Agile Development</li>     
+                <li>UI/UX Design</li>
+              </ul>
+            </div>      
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Skills Section-->
+    <div id="skills" class="offset">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <div class="section__title" data-aos="fade-down" data-aos-delay="100">
+            <h2>My Skills</h2>
+            <div class="title__line"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills" data-aos="fade-up" data-aos-delay="200">
+        <!--Chart Grid--> 
+        <ul class="lines">
+          <li class="line l--0">
+            <div class="seperators">
+              <div class="seperator s--1"></div>
+              <div class="seperator s--2"></div>
+              <div class="seperator s--3"></div>
+              <div class="seperator s--4"></div>
+              <div class="seperator s--5"></div>
+              <div class="seperator s--6"></div>
+              <div class="seperator s--7"></div>
+              <div class="seperator s--8"></div>
+              <div class="seperator s--9"></div>
+              <div class="seperator s--10"></div>
+            </div>
+          </li>
+          <li class="line l--25">
+            <span class="line__label">Beginner</span>
+          </li>
+          <li class="line l--50">
+            <span class="line__label">Average</span>
+          </li>
+          <li class="line l--75">
+            <span class="line__label">Seasoned</span>
+          </li>
+          <li class="line l--100">
+            <span class="line__label">Master</span>
+          </li>
+        </ul>
+
+        <!--Chart Data--> 
+        <div class="chart">
+          <ul class="chart--horiz">
+            <li class="chart__bar" style="width: 90%;">
+              <span class="chart__label">
+                Python
+              </span>
+            </li>
+            <li class="chart__bar" style="width: 90%;">
+              <span class="chart__label">
+                Java
+              </span>
+            </li>
+            <li class="chart__bar" style="width: 80%;">
+              <span class="chart__label">
+                C/C++
+              </span>
+            </li>
+            <li class="chart__bar" style="width: 75%;">
+              <span class="chart__label">
+                C#
+              </span>
+            </li>
+            <li class="chart__bar" style="width: 85%;">
+              <span class="chart__label">
+                HTML & CSS
+              </span>
+            </li>
+            <li class="chart__bar" style="width: 80%;">
+              <span class="chart__label">
+                JavaScript
+              </span>
+            </li>
+            <li class="chart__bar" style="width: 50%;">
+              <span class="chart__label">
+                jQuery
+              </span>
+            </li>
+            <li class="chart__bar" style="width: 70%;">
+              <span class="chart__label">
+                IOS Development
+              </span>
+            </li>
+            <li class="chart__bar" style="width: 45%;">
+              <span class="chart__label">
+                Git + Github
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!--Portfolio Section-->
+    <div id="portfolio" class="offset">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <div class="section__title" data-aos="fade-down" data-aos-delay="100">
+              <h2>My Portfolio</h2>
+              <div class="title__line"></div>
+              <p>These are some of the projects I've been working on</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="project col-sm-12">
+            <div class="proj-img contains-margin-right" data-aos="fade-right" data-aos-delay="200">
+              <img src="/images/portfolio_proj_1.jpg">
+            </div>
+            <div class="proj-description" data-aos="fade-left" data-aos-delay="300">
+              <p>Mobile App</p>
+              <h2>JobPill</h2>
+              <p>
+                A Mobile job search and recruiting platform that allows users to search and post jobs. Additionally,
+                this application also provides the ability to filter jobs based on pre-determined criteria.
+              </p>
+              <div class="proj-description-tags">
+                <p>Android Studio</p>
+                <p>Firebase</p>
+              </div>
+              <a class="github-link" href="#" target="_blank">
+                <i class="fa fa-github fa-custom" aria-hidden="true"> View Code</i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="project col-sm-12">
+            <div class="proj-description contains-margin-right" data-aos="fade-right" data-aos-delay="400">
+              <p>Console App</p>
+              <h2>Tweet Counter</h2>
+              <p>
+                A program that reads from a CSV file that contains a large number of tweets and calculates the 
+                frequency of words that are used in all the tweets using a custom map reduce algorithm.
+              </p>
+              <p>Python</p>
+              <a class="github-link" href="https://github.com/AlexanderVhd/DM-Map-Reduce-Program" target="_blank">
+                <i class="fa fa-github fa-custom" aria-hidden="true">View Code</i>
+              </a>
+            </div>
+            <div class="proj-img right-positioned-img" data-aos="fade-left" data-aos-delay="500">
+              <img src="/images/portfolio_proj_2.jpg">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="project col-sm-12">
+            <div class="proj-img contains-margin-right" data-aos="fade-right" data-aos-delay="600">
+              <img src="/images/portfolio_proj_3.jpg">
+            </div>
+            <div class="proj-description" data-aos="fade-left" data-aos-delay="700">
+              <p>Mobile App</p>
+              <h2>Word Search Game</h2>
+              <p>
+                This is a word search game for Android. The user must try to find all the hidden words in a grid in 
+                order to win. The user can also select the grid size they want in the start menu.
+              </p>
+              <p>Android Studio</p>
+              <a class="github-link" href="https://github.com/AlexanderVhd/Word-Search-Game" target="_blank">
+                <i class="fa fa-github fa-custom" aria-hidden="true">View Code</i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Contact Section-->
+    <div id="contact" class="offset">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <div class="section__title" data-aos="fade-down" data-aos-delay="100">
+              <h2>Contact</h2>
+              <div class="title__line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <form action="" data-aos="fade-up" data-aos-delay="200">
+            <label for="name">Name:</label>
+            <input id="name" type="text" placeholder="Enter name" required>
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="Enter email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" type="text" cols="10" rows="8" placeholder="Enter a message"></textarea>
+            <input type="submit" value="Submit"></input>            
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <!--AOS js and custom js Plugins-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>   
+    <script src="js/script.js"></script>  
+</body>
+
+</html>
