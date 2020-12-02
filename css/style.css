@@ -371,6 +371,13 @@ p{
   background-color: #0A1045;
 }
 
+.section__title p {
+  margin-top: 30px;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  color: #ff690e;
+}
+
 .contains-margin-right{
   margin-right: 5rem;
 }
@@ -457,18 +464,14 @@ p{
   margin: 0 auto;
 }
 
-#contact label{
-  font-size: 1rem;
-  color: #FFFBFC;
-}
-
 #contact input,
 #contact textarea{
   width: 100%;
   padding: 2px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   border: none;
   outline-color: bisque;
+  resize: none;
 }
 
 #contact input[type="submit"]{
