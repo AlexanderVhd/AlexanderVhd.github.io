@@ -351,7 +351,9 @@ p{
   .chart__label {
     padding-left: 10px;
     line-height: 30px;
-    color: white;
+    font-style: oblique;
+    font-weight: bold;
+    color: #FFFBFC;
   }
    
   @keyframes anim-enter {
@@ -459,31 +461,36 @@ p{
   background-color: #FFFBFC;
 }
 
-#contact form{
-  width: 50%;
-  margin: 0 auto;
+#contact p {
+  color: #ff690e;
 }
 
-#contact input,
-#contact textarea{
-  width: 100%;
-  padding: 2px;
-  margin-bottom: 8px;
-  border: none;
-  outline-color: bisque;
-  resize: none;
+.contact-content{
+  text-align: center;
+  margin-bottom: 80px;
 }
 
-#contact input[type="submit"]{
-  width: initial;
-  padding: 10px 20px;
-  border-radius: 10px;
-  background:  #ff690e;
+.contact-text{
+  margin-bottom: 50px;
+}
+
+#contact .message-btn{
+  padding: 6px 26px;
+  border-radius: 4px;
+  margin: auto;
+  font-weight: lighter;
+  font-size: 18px;
   color: #FFFBFC;
-  cursor: pointer;
+  background: transparent;
+  border: 2px solid #FFFBFC;
+  transition: 0.8s;
 }
 
-
+#contact .message-btn:hover{
+  background:  #CB04A5;
+  border: 2px solid #CB04A5;
+  color: #FFFBFC;
+}
 
 
 
