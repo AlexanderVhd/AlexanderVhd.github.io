@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 
 body{
@@ -7,7 +8,7 @@ body{
 }
 
 .offset{
-    padding: 80px 0px;
+    padding: 120px 0px;
 }
 
 .section__title{
@@ -30,11 +31,11 @@ p{
   color: #FFFBFC;
 }
 
+#intro,
 #about,
 #skills,
-#portfolio,
-#contact{
-  padding-top: 12rem;
+#portfolio{
+  padding-bottom: 15rem;
 }
 
 
@@ -375,7 +376,8 @@ p{
 
 .section__title p {
   margin-top: 30px;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  font-family: 'Raleway', sans-serif;
   font-weight: lighter;
   color: #ff690e;
 }
@@ -408,13 +410,15 @@ p{
   flex: 1;
 }
 
+
 .proj-description > p:first-child{
   color: #ff690e;
 }
 
 .proj-description h2{
   margin: 1rem 0;
-  color: #FFFBFC;
+  color: #F1F5F2;
+  font-weight: bold;
 }
 
 .proj-description-tags p{
@@ -422,11 +426,12 @@ p{
   margin-right: 10px;
 }
 
-.fa-custom{
+.fa-github-custom{
   color: #FFFBFC;
+  transition: ease 0.3s;
 }
 
-.fa-custom:hover{
+.fa-github-custom:hover{
   color: #ff690e;
 }
 
@@ -451,6 +456,7 @@ p{
 /*Contact Section*/
 #contact{
   background: linear-gradient(#0A1045, #080D37, #141115);
+  padding: 120px 0 0;
 }
 
 #contact .section__title h3{
@@ -461,17 +467,30 @@ p{
   background-color: #FFFBFC;
 }
 
+#contact .section__title{
+  margin-bottom: 50px;
+}
+
 #contact p {
-  color: #ff690e;
+  font-family: 'Raleway', sans-serif;
 }
 
 .contact-content{
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 150px;
 }
 
 .contact-text{
   margin-bottom: 50px;
+}
+
+.contact-text h2{
+  margin-bottom: 25px;
+  font-size: 34px;
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(to left, #ff690e 20%, #663399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #contact .message-btn{
@@ -490,6 +509,57 @@ p{
   background:  #CB04A5;
   border: 2px solid #CB04A5;
   color: #FFFBFC;
+}
+
+.social-media{
+  margin: 50px auto 0;
+}
+
+.media-link{
+  margin: 0 10px;
+}
+
+.media-link:hover{
+  text-decoration: none;
+}
+
+.media-link:first-child::before,
+.media-link:last-child::after{
+  content: '';
+  display: inline-block;
+  margin: 0 10px 10px;
+  width: 100px;
+  height: 1px;
+  background-color: #FFFBFC;
+  vertical-align: middle;
+}
+
+.fa-social-custom{
+  font-size: 24px;
+  color:#FFFBFC;
+  transition: ease 0.3s;
+}
+
+.fa-social-custom:hover{
+  color: #ff690e;
+  bottom: 10px;
+  border: none;
+  transform: translateY(-8px);
+}
+
+.footer-content{
+  margin: 25px auto;
+  font-size: 14px;
+  font-family: 'Raleway', 'sans-serif';
+}
+
+.footer-content a{
+  color: #FFFBFC;
+}
+
+.footer-content a:hover{
+  color: #ff690e;
+  text-decoration: none;
 }
 
 
